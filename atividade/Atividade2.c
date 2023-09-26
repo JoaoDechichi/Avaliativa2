@@ -3,7 +3,7 @@
 
 typedef struct {
     double x, y;
-}  Point;
+} Point;
 
 double calculatePolygonArea(Point vertices[], int numVertices) {
     double area = 0.0;
